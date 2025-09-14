@@ -6,7 +6,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",          # <-- apna MySQL username
-        password="SHahrukh@23",     # <-- apna MySQL password
+        password="SHahrukh@123",     # <-- apna MySQL password
         database="library_db"
     )
 
@@ -149,3 +149,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
